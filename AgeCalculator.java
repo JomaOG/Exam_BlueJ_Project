@@ -18,20 +18,13 @@ public class AgeCalculator
         
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int canDrive(int yearOfBirth)
-    {
-        int canDrive = currentYear - yearOfBirth;
-        if(canDrive >= 18) {
-            System.out.println("Can Drive");
+
+    public int canDrive(int year) {
+        int age = this.currentYear - year;
+        if(age>=16) {
+            System.out.println("the user can drive");
         } else {
-            System.out.println("Cannot Drive");
-        }
-        return canDrive;
+            System.out.println("You have to wait" +(16-age) +"years");
+        } return age;
     }
 }

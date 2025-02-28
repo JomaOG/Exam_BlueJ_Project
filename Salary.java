@@ -25,12 +25,12 @@ public class Salary
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public void getSalary(double hours, double wage)
+    public void Salary(double hours, double wagePerHour)
     {
         // put your code here
-        double totalSalary = hours * wage;
-        double tax = 1-0.3;
-        double netPay = totalSalary * tax;
-        System.out.println("Net Pay is : " +netPay);
+        double totalSalary = hours * wagePerHour;
+        double tax = 1-0.30;
+        double netSalary = totalSalary * tax;
+        System.out.println("Your net pay is: " +netSalary);
     }
 }
