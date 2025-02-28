@@ -11,4 +11,5 @@ HOW TO START THIS PROJECT:
 AUTHORS:
 USER INSTRUCTIONS:
 I do think blueJ is good for the people to understand the concept of an Object
-and Classes
+and Classes.
+Writing on the board helps alot since you can show the steps of a program and how it runs
